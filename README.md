@@ -9,6 +9,8 @@
 **Repository:** [cosmosanalytics/agentic-mpc](https://github.com/cosmosanalytics/agentic-mpc)  
 **Date:** October 2026
 
+![Agentic MPC Studio Demo](agentic_mpc_demo.gif)
+
 ---
 
 ## 📌 Overview
@@ -91,6 +93,7 @@ python benchmark_cstr_unified.py --oracle
 ```
 ├── index.html                   # Live WebGPU/WebLLM interactive simulation app (GitHub Pages root)
 ├── ai_predictive_control_mpc.html# Standalone app file
+├── agentic_mpc_demo.gif         # Animated walkthrough of app, MPPI rollouts & memory modal
 ├── agentic_mpc_paper.pdf        # Publication-ready 5-page two-column journal paper PDF
 ├── benchmark_cstr_unified.py    # NumPy CSTR benchmark & oracle verification engine
 ├── cstr_benchmark_summary.md    # Detailed benchmark documentation & analysis
