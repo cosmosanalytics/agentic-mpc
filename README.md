@@ -36,12 +36,9 @@ Features:
 
 ## 📑 Research Paper
 
-The formal simulation case study is available in multiple formats:
+The formal simulation case study is available as a publication-ready journal preprint:
 
-- 📄 **[PDF Version (7 Pages, Publication-Ready)](agentic_mpc_paper.pdf)**
-- 🌐 **[Interactive HTML Version](https://cosmosanalytics.github.io/agentic-mpc/agentic_mpc_paper.html)**
-- 📝 **[Word (.docx) Version](agentic_mpc_paper.docx)**
-- 📖 **[Markdown Source](agentic_mpc_paper.md)**
+- 📄 **[PDF Version (5-Page Two-Column Journal Format)](agentic_mpc_paper.pdf)**
 
 ---
 
@@ -92,18 +89,13 @@ python benchmark_cstr_unified.py --oracle
 ## 📁 Repository Structure
 
 ```
-├── index.html                   # Live WebGPU/WebLLM interactive simulation app
+├── index.html                   # Live WebGPU/WebLLM interactive simulation app (GitHub Pages root)
 ├── ai_predictive_control_mpc.html# Standalone app file
-├── agentic_mpc_paper.pdf        # Complete 7-page research paper PDF
-├── agentic_mpc_paper.html       # Interactive paper HTML (KaTeX + theme switcher)
-├── agentic_mpc_paper.docx       # Word document version
-├── agentic_mpc_paper.md         # Full paper source in Markdown
+├── agentic_mpc_paper.pdf        # Publication-ready 5-page two-column journal paper PDF
 ├── benchmark_cstr_unified.py    # NumPy CSTR benchmark & oracle verification engine
 ├── cstr_benchmark_summary.md    # Detailed benchmark documentation & analysis
 ├── cstr_oracle_lead_sweep.csv   # Open-loop hold-280 K sweep data
 ├── cstr_scenario_leads.csv      # Per-scenario open-loop advance lead data
-├── build_paper_pdf.py           # Chrome headless PDF generator (custom margins)
-├── generate_paper_html.py       # Paper HTML compiler with print CSS
 └── README.md                    # Project overview & reproduction guide
 ```
 
